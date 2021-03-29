@@ -1,0 +1,13 @@
+Container contains that elements:
+0: It is Bus, passenger capacity = 23, Engine power = 4, Fuel consumption per 100 km = 2
+431.25 Weight to power ratio
+
+1: It is Bus, passenger capacity = 17, Engine power = 3, Fuel consumption per 100 km = 2.567
+425 Weight to power ratio
+
+2: It is Bus, passenger capacity = 16, Engine power = 5, Fuel consumption per 100 km = 2
+240 Weight to power ratio
+
+3: It is Bus, passenger capacity = 7, Engine power = 9, Fuel consumption per 100 km = 1
+58.3333 Weight to power ratio
+

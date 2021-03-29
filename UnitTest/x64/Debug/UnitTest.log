@@ -1,0 +1,8 @@
+﻿  UnitTest.cpp
+D:\GitHub\autoTransport\autoTransport\Transport.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Bus.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Truck.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Car.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Transport_In.cpp(13,6): warning C4101: inh: неиспользованная локальная переменная
+D:\GitHub\autoTransport\autoTransport\Transport_Out.cpp(33): warning C4715: WPRatio: значение возвращается не при всех путях выполнения
+  UnitTest.vcxproj -> D:\GitHub\autoTransport\x64\Debug\UnitTest.dll

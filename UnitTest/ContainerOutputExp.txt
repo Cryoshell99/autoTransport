@@ -1,50 +1,3 @@
-Filled container. 
-Container contains that elements:
-0: It is Bus, passenger capacity = 7, Engine power = 9, Fuel consumption per 100 km = 1
-58.3333 Weight to power ratio
-
-1: It is Bus, passenger capacity = 17, Engine power = 3, Fuel consumption per 100 km = 2.567
-425 Weight to power ratio
-
-2: It is Bus, passenger capacity = 23, Engine power = 4, Fuel consumption per 100 km = 2
-431.25 Weight to power ratio
-
-3: It is Bus, passenger capacity = 16, Engine power = 5, Fuel consumption per 100 km = 2
-240 Weight to power ratio
-
-4: It is Bus, passenger capacity = 31, Engine power = 6, Fuel consumption per 100 km = 2
-387.5 Weight to power ratio
-
-5: It is Truck, carrying capacity = 3, Engine power = 7, Fuel consumption per 100 km = 2
-0.428571 Weight to power ratio
-
-6: It is Car, maximum speed = 5, Engine power = 8, Fuel consumption per 100 km = 1
-37.5 Weight to power ratio
-
-7: It is Car, maximum speed = 7, Engine power = 9, Fuel consumption per 100 km = 1
-33.3333 Weight to power ratio
-
-8: It is Truck, carrying capacity = 4, Engine power = 10, Fuel consumption per 100 km = 1
-0.4 Weight to power ratio
-
-9: It is Bus, passenger capacity = 1, Engine power = 1, Fuel consumption per 100 km = 1
-75 Weight to power ratio
-
-10: It is Truck, carrying capacity = 2, Engine power = 2, Fuel consumption per 100 km = 1
-1 Weight to power ratio
-
-11: It is Bus, passenger capacity = 3, Engine power = 3, Fuel consumption per 100 km = 1
-75 Weight to power ratio
-
-12: It is Truck, carrying capacity = 4, Engine power = 4, Fuel consumption per 100 km = 1
-1 Weight to power ratio
-
-13: It is Bus, passenger capacity = 11, Engine power = 10, Fuel consumption per 100 km = 12
-82.5 Weight to power ratio
-
-
-
-Sorted Container!!!
 Container contains that elements:
 0: It is Bus, passenger capacity = 23, Engine power = 4, Fuel consumption per 100 km = 2
 431.25 Weight to power ratio
@@ -52,73 +5,11 @@ Container contains that elements:
 1: It is Bus, passenger capacity = 17, Engine power = 3, Fuel consumption per 100 km = 2.567
 425 Weight to power ratio
 
-2: It is Bus, passenger capacity = 31, Engine power = 6, Fuel consumption per 100 km = 2
-387.5 Weight to power ratio
-
-3: It is Bus, passenger capacity = 16, Engine power = 5, Fuel consumption per 100 km = 2
+2: It is Bus, passenger capacity = 16, Engine power = 5, Fuel consumption per 100 km = 2
 240 Weight to power ratio
 
-4: It is Bus, passenger capacity = 11, Engine power = 10, Fuel consumption per 100 km = 12
-82.5 Weight to power ratio
-
-5: It is Bus, passenger capacity = 1, Engine power = 1, Fuel consumption per 100 km = 1
-75 Weight to power ratio
-
-6: It is Bus, passenger capacity = 3, Engine power = 3, Fuel consumption per 100 km = 1
-75 Weight to power ratio
-
-7: It is Bus, passenger capacity = 7, Engine power = 9, Fuel consumption per 100 km = 1
+3: It is Bus, passenger capacity = 7, Engine power = 9, Fuel consumption per 100 km = 1
 58.3333 Weight to power ratio
 
-8: It is Car, maximum speed = 5, Engine power = 8, Fuel consumption per 100 km = 1
-37.5 Weight to power ratio
-
-9: It is Car, maximum speed = 7, Engine power = 9, Fuel consumption per 100 km = 1
-33.3333 Weight to power ratio
-
-10: It is Truck, carrying capacity = 2, Engine power = 2, Fuel consumption per 100 km = 1
-1 Weight to power ratio
-
-11: It is Truck, carrying capacity = 4, Engine power = 4, Fuel consumption per 100 km = 1
-1 Weight to power ratio
-
-12: It is Truck, carrying capacity = 3, Engine power = 7, Fuel consumption per 100 km = 2
-0.428571 Weight to power ratio
-
-13: It is Truck, carrying capacity = 4, Engine power = 10, Fuel consumption per 100 km = 1
-0.4 Weight to power ratio
 
 
-Only Bus transports:
-Container contains that elements:
-0: It is Bus, passenger capacity = 23, Engine power = 4, Fuel consumption per 100 km = 2
-431.25 Weight to power ratio
-
-1: It is Bus, passenger capacity = 17, Engine power = 3, Fuel consumption per 100 km = 2.567
-425 Weight to power ratio
-
-2: It is Bus, passenger capacity = 31, Engine power = 6, Fuel consumption per 100 km = 2
-387.5 Weight to power ratio
-
-3: It is Bus, passenger capacity = 16, Engine power = 5, Fuel consumption per 100 km = 2
-240 Weight to power ratio
-
-4: It is Bus, passenger capacity = 11, Engine power = 10, Fuel consumption per 100 km = 12
-82.5 Weight to power ratio
-
-5: It is Bus, passenger capacity = 1, Engine power = 1, Fuel consumption per 100 km = 1
-75 Weight to power ratio
-
-6: It is Bus, passenger capacity = 3, Engine power = 3, Fuel consumption per 100 km = 1
-75 Weight to power ratio
-
-7: It is Bus, passenger capacity = 7, Engine power = 9, Fuel consumption per 100 km = 1
-58.3333 Weight to power ratio
-
-8: 
-9: 
-10: 
-11: 
-12: 
-13: 
-Container is empty!

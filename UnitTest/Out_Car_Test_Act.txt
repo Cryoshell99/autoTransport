@@ -1,0 +1,1 @@
+It is Car, maximum speed = 100, Engine power = 5, Fuel consumption per 100 km = 12

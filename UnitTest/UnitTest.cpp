@@ -54,27 +54,25 @@ namespace UnitTest
 		}
 		TEST_METHOD(BusInputM)
 		{
-			ifstream fin("D:/GitHub/autoTransport/UnitTests/In_Bus_Test.txt");
-			//if (fin.is_open())
-			//{
-				Bus* actual = InBus(fin);
-				Bus* expected = new Bus;
+			ifstream fin("D:/GitHub/autoTransport/UnitTest/In_Bus_Test.txt");
 
-				expected->mKey = type::BUS;
-				expected->tPower = 9;
-				expected->mData = 7;
-				expected->fuelConsumption = 1.0;
+			Bus* actual = InBus(fin);
+			Bus* expected = new Bus;
 
-				Assert::AreEqual((int)expected->mKey, (int)actual->mKey);
-				Assert::AreEqual((int)expected->tPower, (int)actual->tPower);
-				Assert::AreEqual((short int)expected->mData, (short int)actual->mData);
-				Assert::AreEqual((float)expected->fuelConsumption, (float)actual->fuelConsumption);
-			//}
+			expected->mKey = type::BUS;
+			expected->tPower = 9;
+			expected->mData = 7;
+			expected->fuelConsumption = 2;
+			
+			Assert::AreEqual((int)expected->mKey, (int)actual->mKey);
+			Assert::AreEqual(expected->tPower, actual->tPower);
+			Assert::AreEqual(expected->mData, actual->mData);
+			Assert::AreEqual((float)expected->fuelConsumption, (float)actual->fuelConsumption);
 		}
 
 		TEST_METHOD(CarOutput)
 		{
-			ofstream fout("D:/GitHub/autoTransport/UnitTests/Out_Car_Test_Act.txt");
+			ofstream fout("D:/GitHub/autoTransport/UnitTest/Out_Car_Test_Act.txt");
 			Car* act = new Car;
 
 			act->tPower = 5;
@@ -84,8 +82,8 @@ namespace UnitTest
 
 			Out(act, fout);
 
-			ifstream fin_act("D:/GitHub/autoTransport/UnitTests/Out_Car_Test_Act.txt");
-			ifstream fin_exp("D:/GitHub/autoTransport/UnitTests/Out_Car_Test_Exp.txt");
+			ifstream fin_act("D:/GitHub/autoTransport/UnitTest/Out_Car_Test_Act.txt");
+			ifstream fin_exp("D:/GitHub/autoTransport/UnitTest/Out_Car_Test_Exp.txt");
 
 			string expected, actual;
 			getline(fin_act, actual, '\0');
@@ -94,31 +92,31 @@ namespace UnitTest
 		}
 		TEST_METHOD(ContainerStream)
 		{
-			ifstream fin("D:/GitHub/autoTransport/UnitTests/ContainerOutputIn.txt");
-			ofstream fout("D:/GitHub/autoTransport/UnitTests/ContainerOutput.txt");
+			ifstream fin("D:/GitHub/autoTransport/UnitTest/ContainerOutputIn.txt");
+			ofstream fout("D:/GitHub/autoTransport/UnitTest/ContainerOutput.txt");
 			Container c;
 			Init(c);
 			In(c, fin);
 			Out(c, fout);
 			fout.close();
-			ifstream fin_exp("D:/GitHub/autoTransport/UnitTests/ContainerOutputExp.txt");
-			ifstream fin_act("D:/GitHub/autoTransport/UnitTests/ContainerOutput.txt");
+			ifstream fin_exp("D:/GitHub/autoTransport/UnitTest/ContainerOutputExp.txt");
+			ifstream fin_act("D:/GitHub/autoTransport/UnitTest/ContainerOutput.txt");
 			string expected((std::istreambuf_iterator<char>(fin_exp)), std::istreambuf_iterator<char>());
 			string actual((std::istreambuf_iterator<char>(fin_act)), std::istreambuf_iterator<char>());
 			Assert::AreEqual(expected, actual);
 		}
 		TEST_METHOD(SortContainer)
 		{
-			ifstream fin("D:/GitHub/autoTransport/UnitTests/ContainerOutputIn.txt");
-			ofstream fout("D:/GitHub/autoTransport/UnitTests/ContainerOutput.txt");
+			ifstream fin("D:/GitHub/autoTransport/UnitTest/ContainerOutputIn.txt");
+			ofstream fout("D:/GitHub/autoTransport/UnitTest/ContainerOutput.txt");
 			Container* c = new Container;
 			Init(*c);
 			In(*c, fin);
 			Sort(c);
 			Out(*c, fout);
 			fout.close();
-			ifstream fin_exp("D:/GitHub/autoTransport/UnitTests/SortContainerExp.txt");
-			ifstream fin_act("D:/GitHub/autoTransport/UnitTests/ContainerOutput.txt");
+			ifstream fin_exp("D:/GitHub/autoTransport/UnitTest/SortContainerExp.txt");
+			ifstream fin_act("D:/GitHub/autoTransport/UnitTest/ContainerOutput.txt");
 			string expected((std::istreambuf_iterator<char>(fin_exp)), std::istreambuf_iterator<char>());
 			string actual((std::istreambuf_iterator<char>(fin_act)), std::istreambuf_iterator<char>());
 			Assert::AreEqual(expected, actual);
