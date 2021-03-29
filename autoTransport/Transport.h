@@ -1,3 +1,4 @@
+#pragma once
 #include "Type.h";
 #include "Bus.h"
 #include "Truck.h"
