@@ -1,19 +1,61 @@
 Filled container. 
 Container contains that elements:
-0: It is Bus, passenger capacity = 7, Engine power = 9, Fuel consumption per 100 km = 1
-58.3333 Weight to power ratio
+0: It is Bus, passenger capacity = 7, Engine power = 1, Fuel consumption per 100 km = 1
+525 Weight to power ratio
+
+1: It is Bus, passenger capacity = 17, Engine power = 2, Fuel consumption per 100 km = 2.567
+637.5 Weight to power ratio
+
+2: It is Bus, passenger capacity = 23, Engine power = 2, Fuel consumption per 100 km = 2.71
+862.5 Weight to power ratio
+
+3: It is Bus, passenger capacity = 16, Engine power = 2, Fuel consumption per 100 km = 2.88
+600 Weight to power ratio
+
+4: It is Bus, passenger capacity = 31, Engine power = 2, Fuel consumption per 100 km = 2.76
+1162.5 Weight to power ratio
+
+5: It is Truck, carrying capacity = 3, Engine power = 2, Fuel consumption per 100 km = 2.1
+1.5 Weight to power ratio
+
+6: It is Car, maximum speed = 5, Engine power = 1, Fuel consumption per 100 km = 1.5
+300 Weight to power ratio
+
+7: Incorrect type of Transport!
+
+8: Incorrect type of Transport!
+
+9: Incorrect type of Transport!
 
 
 
 Sorted Container!!!
 Container contains that elements:
-0: It is Bus, passenger capacity = 7, Engine power = 9, Fuel consumption per 100 km = 1
-58.3333 Weight to power ratio
+0: It is Bus, passenger capacity = 31, Engine power = 2, Fuel consumption per 100 km = 2.76
+1162.5 Weight to power ratio
 
+1: It is Bus, passenger capacity = 23, Engine power = 2, Fuel consumption per 100 km = 2.71
+862.5 Weight to power ratio
 
-Only Bus transports:
-Container contains that elements:
-0: It is Bus, passenger capacity = 7, Engine power = 9, Fuel consumption per 100 km = 1
-58.3333 Weight to power ratio
+2: It is Bus, passenger capacity = 17, Engine power = 2, Fuel consumption per 100 km = 2.567
+637.5 Weight to power ratio
+
+3: It is Bus, passenger capacity = 16, Engine power = 2, Fuel consumption per 100 km = 2.88
+600 Weight to power ratio
+
+4: It is Bus, passenger capacity = 7, Engine power = 1, Fuel consumption per 100 km = 1
+525 Weight to power ratio
+
+5: It is Car, maximum speed = 5, Engine power = 1, Fuel consumption per 100 km = 1.5
+300 Weight to power ratio
+
+6: It is Truck, carrying capacity = 3, Engine power = 2, Fuel consumption per 100 km = 2.1
+1.5 Weight to power ratio
+
+7: Incorrect type of Transport!
+
+8: Incorrect type of Transport!
+
+9: Incorrect type of Transport!
 
 Container is empty!

@@ -36,6 +36,15 @@ Transport* In(ifstream& ifst)
 	Transport* tr;
 	int k;
 	ifst >> k;
+
+	if (ifst.fail())
+	{
+		//Восстановили поток
+		ifst.clear();
+		ifst.ignore(numeric_limits<streamsize>::max(), '\n');
+		return NULL;
+	}
+
 	tr = In(k, ifst);
 	return tr;
 };

@@ -36,7 +36,7 @@ void Out(Transport* tr, ofstream& ofst)
 {
 	if (tr == NULL)
 	{
-		ofst << "Incorrect type of Transport!" << endl;
+		ofst << "Incorrect type of Transport!" << endl << endl;
 	}
 	else
 	{
