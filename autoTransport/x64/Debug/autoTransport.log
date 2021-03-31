@@ -1,7 +1,12 @@
-﻿  Transport_Out.cpp
+﻿  Container_Out.cpp
 D:\GitHub\autoTransport\autoTransport\Transport.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
 D:\GitHub\autoTransport\autoTransport\Bus.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
 D:\GitHub\autoTransport\autoTransport\Truck.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
 D:\GitHub\autoTransport\autoTransport\Car.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-D:\GitHub\autoTransport\autoTransport\Transport_Out.cpp(33): warning C4715: WPRatio: значение возвращается не при всех путях выполнения
+  autoTransport.cpp
+D:\GitHub\autoTransport\autoTransport\Transport.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Bus.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Truck.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Car.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Создание кода...
   autoTransport.vcxproj -> D:\GitHub\autoTransport\x64\Debug\autoTransport.exe

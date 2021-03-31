@@ -31,16 +31,16 @@ int main(int argc, char* argv[])
 	Init(*cnt);
 	// Заполняем контейнер
 	In(*cnt, ifst);
-	ofst << "Filled container. " << endl;
+	ofst << "<< Filled container >>" << endl;
 	// Выводим содержимое
 	Out(*cnt, ofst);
 	// Сортированный вывод
-	ofst << endl << endl << "Sorted Container!!!" << endl;
+	ofst << endl << endl << "<< Sorted Container >>" << endl;
 	Sort(cnt);
 	Out(*cnt, ofst);
 
 	// Фильтрованный вывод
-	//OutBus(*cnt, ofst);
+	OutBus(*cnt, ofst);
 	// Чистим его
 	Clear(cnt);
 	// Демностируем содержимое контейнера

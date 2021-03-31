@@ -10,9 +10,9 @@ Bus* InBus(ifstream& ifst)
 	b = new Bus;
 	b->mKey = type::BUS;
 
-	double inh;
+	float inh;
 	bool flag = true;
-	vector<double> tail;
+	vector<float> tail;
 	do
 	{
 		ifst >> inh;
@@ -34,8 +34,8 @@ Bus* InBus(ifstream& ifst)
 	{
 		if (tail[0] > 0 || tail[0] < 103)
 		{
-			b->tPower = inh;
-			b->mData = tail[1];
+			b->mData = tail[0];
+			b->tPower = tail[1];
 			b->fuelConsumption = tail[2];
 		return b;
 		}
@@ -48,9 +48,4 @@ Bus* InBus(ifstream& ifst)
 	{
 		return NULL;
 	}
-
-	//ifst >> b->tPower;
-	//ifst >> b->mData;
-	//ifst >> b->fuelConsumption;
-	//return b;
 }

@@ -10,9 +10,9 @@ Truck* InTruck(ifstream& ifst)
 	t = new Truck;
 	t->mKey = type::TRUCK;
 
-	double inh;
+	float inh;
 	bool flag = true;
-	vector<double> tail;
+	vector<float> tail;
 	do
 	{
 		ifst >> inh;
@@ -32,10 +32,10 @@ Truck* InTruck(ifstream& ifst)
 
 	if (tail.size() == 3 && flag)
 	{
-		if (tail[0] > 0.0 || tail[0] < 450.0)
+		if (tail[0] > 0 || tail[0] < 450)
 		{
-			t->tPower = inh;
-			t->mData = tail[1];
+			t->mData = tail[0];
+			t->tPower = tail[1];
 			t->fuelConsumption = tail[2];
 			return t;
 		}

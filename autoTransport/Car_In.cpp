@@ -10,9 +10,9 @@ Car* InCar(ifstream& ifst)
 	c = new Car;
 	c->mKey = type::CAR;
 
-	double inh;
+	float inh;
 	bool flag = true;
-	vector<double> tail;
+	vector<float> tail;
 	do
 	{
 		ifst >> inh;
@@ -34,8 +34,8 @@ Car* InCar(ifstream& ifst)
 	{
 		if (tail[0] > 0 || tail[0] < 490)
 		{
-			c->tPower = inh;
-			c->mData = tail[1];
+			c->mData = tail[0];
+			c->tPower = tail[1];
 			c->fuelConsumption = tail[2];
 			return c;
 		}

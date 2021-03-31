@@ -45,7 +45,7 @@ void Out(Container& cnt, ofstream& ofst)
 	// Если контейнер не пуст
 	if (&cnt != nullptr)
 	{
-		ofst << "Container contains that elements:" << endl;
+		ofst << "Container contains that elements:" << endl << endl;
 		Container *temp;
 		temp = &cnt;
 		int i = 0;
@@ -65,24 +65,29 @@ void Out(Container& cnt, ofstream& ofst)
 
 void OutBus(Container& cnt, ofstream& ofst)
 {
-	ofst << endl << "Only Bus transports:" << endl;
+	ofst << endl << endl << "<< Only Bus transports >>" << endl;
 	// Если контейнер не пуст
 	if (&cnt != nullptr)
 	{
-		ofst << "Container contains that elements:" << endl;
+		ofst << "Container contains that elements:" << endl << endl;
 		Container* temp;
 		temp = &cnt;
 		int i = 0;
 		do
 		{
 			ofst << i << ": ";
-			if (temp->L->mKey == type::BUS)
-			{
-				Out(temp->L, ofst);
-			}
-			else
+			if (temp->L == NULL)
 			{
 				ofst << endl;
+				ofst << endl;
+			}
+			else if (temp->L->mKey == type::BUS)
+			{
+				Out(temp->L, ofst);
+			}	
+			else
+			{
+				ofst << endl << endl;
 			}
 			temp = temp->Next;
 			i++;

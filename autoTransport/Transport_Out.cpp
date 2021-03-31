@@ -51,7 +51,7 @@ void Out(Transport* tr, ofstream& ofst)
 			Out((Car*)tr, ofst);
 			break;
 		}
-		ofst << WPRatio(tr) << " Weight to power ratio" << endl << endl;
+		ofst << WPRatio(tr) << " Weight to Power ratio" << endl << endl;
 	}
 };
 
