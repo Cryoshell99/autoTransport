@@ -28,13 +28,31 @@ namespace UnitTest
 	{
 	public:
 		
-		TEST_METHOD(WPRatioM)
+		TEST_METHOD(WPRatioT)
 		{
 			Truck transport;
 			transport.mData = 25;
 			transport.tPower = 25;
 			float actual = WPRatio(&transport);
 			float expected = (float)(transport.mData) / (float)transport.tPower;
+			Assert::AreEqual(expected, actual);
+		}
+		TEST_METHOD(WPRatioB)
+		{
+			Bus transport;
+			transport.mData = 25;
+			transport.tPower = 25;
+			float actual = WPRatio(&transport);
+			float expected = (float)(transport.mData *75) / (float)transport.tPower;
+			Assert::AreEqual(expected, actual);
+		}
+		TEST_METHOD(WPRatioC)
+		{
+			Car transport;
+			//transport.mData = 25;
+			transport.tPower = 25;
+			float actual = WPRatio(&transport);
+			float expected = (float)(75 * 4 ) / (float)transport.tPower;
 			Assert::AreEqual(expected, actual);
 		}
 		TEST_METHOD(TestCompareM)
@@ -117,6 +135,21 @@ namespace UnitTest
 			fout.close();
 			ifstream fin_exp("D:/GitHub/autoTransport/UnitTest/SortContainerExp.txt");
 			ifstream fin_act("D:/GitHub/autoTransport/UnitTest/ContainerOutput.txt");
+			string expected((std::istreambuf_iterator<char>(fin_exp)), std::istreambuf_iterator<char>());
+			string actual((std::istreambuf_iterator<char>(fin_act)), std::istreambuf_iterator<char>());
+			Assert::AreEqual(expected, actual);
+		}
+		TEST_METHOD(OnlyBus)
+		{
+			ifstream fin("D:\\GitHub\\autoTransport\\UnitTest\\ContainerOutputIn.txt");
+			ofstream fout("D:\\GitHub\\autoTransport\\UnitTest\\ContainerOutput.txt");
+			Container c;
+			Init(c);
+			In(c, fin);
+			Out(c, fout);
+			fout.close();
+			ifstream fin_exp("D:\\GitHub\\autoTransport\\UnitTest\\OnlyBusExp.txt");
+			ifstream fin_act("D:\\GitHub\\autoTransport\\UnitTest\\ContainerOutput.txt");
 			string expected((std::istreambuf_iterator<char>(fin_exp)), std::istreambuf_iterator<char>());
 			string actual((std::istreambuf_iterator<char>(fin_act)), std::istreambuf_iterator<char>());
 			Assert::AreEqual(expected, actual);
