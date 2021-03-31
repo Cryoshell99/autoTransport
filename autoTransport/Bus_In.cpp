@@ -37,7 +37,7 @@ Bus* InBus(ifstream& ifst)
 			b->mData = tail[0];
 			b->tPower = tail[1];
 			b->fuelConsumption = tail[2];
-		return b;
+			return b;
 		}
 		else
 		{
