@@ -4,8 +4,8 @@
 using namespace std;
 
 void Out(Transport* tr, ofstream& ofst);
-//void OutBus(Transport* tr, ofstream& ofst);
-float WPRatio(Transport* tr);
+//void outBus(Transport* tr, ofstream& ofst);
+float weightToPowerRatio(Transport* tr);
 bool Compare(Transport* first, Transport* second);
 
 void Sort(Container*& cnt)
@@ -63,7 +63,7 @@ void Out(Container& cnt, ofstream& ofst)
 	}
 };
 
-void OutBus(Container& cnt, ofstream& ofst)
+void outBus(Container& cnt, ofstream& ofst)
 {
 	ofst << endl << endl << "<< Only Bus transports >>" << endl;
 	// Если контейнер не пуст

@@ -28,31 +28,31 @@ namespace UnitTest
 	{
 	public:
 		
-		TEST_METHOD(WPRatioT)
+		TEST_METHOD(weightToPowerRatioT)
 		{
 			Truck transport;
 			transport.mData = 25;
-			transport.tPower = 25;
-			float actual = WPRatio(&transport);
-			float expected = (float)(transport.mData) / (float)transport.tPower;
+			transport.mPower = 25;
+			float actual = weightToPowerRatio(&transport);
+			float expected = (float)(transport.mData) / (float)transport.mPower;
 			Assert::AreEqual(expected, actual);
 		}
-		TEST_METHOD(WPRatioB)
+		TEST_METHOD(weightToPowerRatioB)
 		{
 			Bus transport;
 			transport.mData = 25;
-			transport.tPower = 25;
-			float actual = WPRatio(&transport);
-			float expected = (float)(transport.mData *75) / (float)transport.tPower;
+			transport.mPower = 25;
+			float actual = weightToPowerRatio(&transport);
+			float expected = (float)(transport.mData *75) / (float)transport.mPower;
 			Assert::AreEqual(expected, actual);
 		}
-		TEST_METHOD(WPRatioC)
+		TEST_METHOD(weightToPowerRatioC)
 		{
 			Car transport;
 			//transport.mData = 25;
-			transport.tPower = 25;
-			float actual = WPRatio(&transport);
-			float expected = (float)(75 * 4 ) / (float)transport.tPower;
+			transport.mPower = 25;
+			float actual = weightToPowerRatio(&transport);
+			float expected = (float)(75 * 4 ) / (float)transport.mPower;
 			Assert::AreEqual(expected, actual);
 		}
 		TEST_METHOD(TestCompareM)
@@ -61,10 +61,10 @@ namespace UnitTest
 			Car* transport_old = new Car;
 			transport_new->mKey = type::BUS;
 			transport_new->mData = 1;
-			transport_new->tPower = 25;
+			transport_new->mPower = 25;
 			transport_old->mKey = type::CAR;
 			transport_old->mData = 1;
-			transport_old->tPower = 25;
+			transport_old->mPower = 25;
 			//75*1/25 < 75*4/25
 			bool actual = Compare((Transport*)transport_new, (Transport*)transport_old);
 			bool expected = true;
@@ -74,18 +74,18 @@ namespace UnitTest
 		{
 			ifstream fin("D:/GitHub/autoTransport/UnitTest/In_Bus_Test.txt");
 
-			Bus* actual = InBus(fin);
+			Bus* actual = inBus(fin);
 			Bus* expected = new Bus;
 
 			expected->mKey = type::BUS;
-			expected->tPower = 9;
+			expected->mPower = 9;
 			expected->mData = 7;
-			expected->fuelConsumption = 2;
+			expected->mFuelConsumption = 2;
 			
 			Assert::AreEqual((int)expected->mKey, (int)actual->mKey);
-			Assert::AreEqual(expected->tPower, actual->tPower);
+			Assert::AreEqual(expected->mPower, actual->mPower);
 			Assert::AreEqual(expected->mData, actual->mData);
-			Assert::AreEqual((float)expected->fuelConsumption, (float)actual->fuelConsumption);
+			Assert::AreEqual((float)expected->mFuelConsumption, (float)actual->mFuelConsumption);
 		}
 
 		TEST_METHOD(CarOutput)
@@ -93,10 +93,10 @@ namespace UnitTest
 			ofstream fout("D:/GitHub/autoTransport/UnitTest/Out_Car_Test_Act.txt");
 			Car* act = new Car;
 
-			act->tPower = 5;
+			act->mPower = 5;
 			act->mData = 100;
 			act->mKey = type::CAR;
-			act->fuelConsumption = 12;
+			act->mFuelConsumption = 12;
 
 			Out(act, fout);
 

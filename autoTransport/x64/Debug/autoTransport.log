@@ -1,12 +1,82 @@
-﻿  Container_Out.cpp
+﻿  Bus_In.cpp
+D:\GitHub\autoTransport\autoTransport\Bus.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Bus_In.cpp(37,21): warning C4244: =: преобразование "_Ty" в "short", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
+D:\GitHub\autoTransport\autoTransport\Bus_In.cpp(38,22): warning C4244: =: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
+  Bus_Out.cpp
+D:\GitHub\autoTransport\autoTransport\Bus.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Car_In.cpp
+D:\GitHub\autoTransport\autoTransport\Car.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Car_In.cpp(37,21): warning C4244: =: преобразование "_Ty" в "short", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
+D:\GitHub\autoTransport\autoTransport\Car_In.cpp(38,22): warning C4244: =: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
+  Car_Out.cpp
+D:\GitHub\autoTransport\autoTransport\Car.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Container_Constr.cpp
 D:\GitHub\autoTransport\autoTransport\Transport.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
 D:\GitHub\autoTransport\autoTransport\Bus.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
 D:\GitHub\autoTransport\autoTransport\Truck.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
 D:\GitHub\autoTransport\autoTransport\Car.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Container_In.cpp
+D:\GitHub\autoTransport\autoTransport\Transport.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Bus.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Truck.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Car.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Container_Out.cpp
+D:\GitHub\autoTransport\autoTransport\Transport.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Bus.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Truck.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Car.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Transport_Compare.cpp
+D:\GitHub\autoTransport\autoTransport\Transport.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Bus.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Truck.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Car.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Transport_In.cpp
+D:\GitHub\autoTransport\autoTransport\Transport.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Bus.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Truck.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Car.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Transport_In.cpp(13,6): warning C4101: inh: неиспользованная локальная переменная
+  Transport_Out.cpp
+D:\GitHub\autoTransport\autoTransport\Transport.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Bus.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Truck.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Car.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  Truck_In.cpp
+D:\GitHub\autoTransport\autoTransport\Truck.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Truck_In.cpp(37,21): warning C4244: =: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
+D:\GitHub\autoTransport\autoTransport\Truck_In.cpp(38,22): warning C4244: =: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
+  Truck_Out.cpp
+D:\GitHub\autoTransport\autoTransport\Truck.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
   autoTransport.cpp
 D:\GitHub\autoTransport\autoTransport\Transport.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
 D:\GitHub\autoTransport\autoTransport\Bus.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
 D:\GitHub\autoTransport\autoTransport\Truck.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
 D:\GitHub\autoTransport\autoTransport\Car.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
   Создание кода...
+D:\GitHub\autoTransport\autoTransport\Transport_Out.cpp(33): warning C4715: weightToPowerRatio: значение возвращается не при всех путях выполнения
+  LINK : не найден или не выполнена сборка D:\GitHub\autoTransport\x64\Debug\autoTransport.exe при последней инкрементной компоновке; выполняется полная компоновка
   autoTransport.vcxproj -> D:\GitHub\autoTransport\x64\Debug\autoTransport.exe

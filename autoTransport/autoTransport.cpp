@@ -9,7 +9,7 @@ void Init(Container& cnt);
 void Clear(Container*& cnt);
 void In(Container& cnt, ifstream& ifst);
 void Out(Container& cnt, ofstream& ofst);
-void OutBus(Container& cnt, ofstream& ofst);
+void outBus(Container& cnt, ofstream& ofst);
 void Sort(Container*& cnt);
 
 int main(int argc, char* argv[])
@@ -40,7 +40,7 @@ int main(int argc, char* argv[])
 	Out(*cnt, ofst);
 
 	// Фильтрованный вывод
-	OutBus(*cnt, ofst);
+	outBus(*cnt, ofst);
 	// Чистим его
 	Clear(cnt);
 	// Демностируем содержимое контейнера

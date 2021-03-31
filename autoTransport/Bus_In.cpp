@@ -4,7 +4,7 @@
 
 using namespace std;
 
-Bus* InBus(ifstream& ifst)
+Bus* inBus(ifstream& ifst)
 {
 	Bus* b;
 	b = new Bus;
@@ -35,8 +35,8 @@ Bus* InBus(ifstream& ifst)
 		if (tail[0] > 0 || tail[0] < 103)
 		{
 			b->mData = tail[0];
-			b->tPower = tail[1];
-			b->fuelConsumption = tail[2];
+			b->mPower = tail[1];
+			b->mFuelConsumption = tail[2];
 			return b;
 		}
 		else

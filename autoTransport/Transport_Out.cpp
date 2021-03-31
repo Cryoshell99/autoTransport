@@ -6,23 +6,23 @@ using namespace std;
 void Out(Bus* b, ofstream& ofst);
 void Out(Truck* t, ofstream& ofst);
 void Out(Car* c, ofstream& ofst);
-float WPRatio(Bus* b);
-float WPRatio(Truck* t);
-float WPRatio(Car* c);
+float weightToPowerRatio(Bus* b);
+float weightToPowerRatio(Truck* t);
+float weightToPowerRatio(Car* c);
 
-float WPRatio(Transport* tr)
+float weightToPowerRatio(Transport* tr)
 {
 	if (tr != NULL)
 	{
 		switch (tr->mKey) {
 		case type::BUS:
-			return WPRatio((Bus*)(tr));
+			return weightToPowerRatio((Bus*)(tr));
 			break;
 		case type::TRUCK:
-			return WPRatio((Truck*)tr);
+			return weightToPowerRatio((Truck*)tr);
 			break;
 		case type::CAR:
-			return WPRatio((Car*)tr);
+			return weightToPowerRatio((Car*)tr);
 			break;
 		}
 	}
@@ -51,7 +51,7 @@ void Out(Transport* tr, ofstream& ofst)
 			Out((Car*)tr, ofst);
 			break;
 		}
-		ofst << WPRatio(tr) << " Weight to Power ratio" << endl << endl;
+		ofst << weightToPowerRatio(tr) << " Weight to Power ratio" << endl << endl;
 	}
 };
 

@@ -1,6 +1,6 @@
 #include "Transport.h"
-float WPRatio(Transport* tr);
+float weightToPowerRatio(Transport* tr);
 bool Compare(Transport* first, Transport* second)
 {
-	return WPRatio(first) < WPRatio(second);
+	return weightToPowerRatio(first) < weightToPowerRatio(second);
 };

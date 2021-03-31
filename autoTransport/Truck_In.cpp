@@ -4,7 +4,7 @@
 
 using namespace std;
 
-Truck* InTruck(ifstream& ifst)
+Truck* inTruck(ifstream& ifst)
 {
 	Truck* t;
 	t = new Truck;
@@ -35,8 +35,8 @@ Truck* InTruck(ifstream& ifst)
 		if (tail[0] > 0 || tail[0] < 450)
 		{
 			t->mData = tail[0];
-			t->tPower = tail[1];
-			t->fuelConsumption = tail[2];
+			t->mPower = tail[1];
+			t->mFuelConsumption = tail[2];
 			return t;
 		}
 		else
@@ -48,9 +48,4 @@ Truck* InTruck(ifstream& ifst)
 	{
 		return NULL;
 	}
-
-	//ifst >> t->tPower;
-	//ifst >> t->mData;
-	//ifst >> t->fuelConsumption;
-	//return t;
 }

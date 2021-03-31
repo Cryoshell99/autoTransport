@@ -3,6 +3,37 @@ D:\GitHub\autoTransport\autoTransport\Transport.h(2,10): warning C4067: непр
 D:\GitHub\autoTransport\autoTransport\Bus.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
 D:\GitHub\autoTransport\autoTransport\Truck.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
 D:\GitHub\autoTransport\autoTransport\Car.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+D:\GitHub\autoTransport\autoTransport\Bus_In.cpp(37,21): warning C4244: =: преобразование "_Ty" в "short", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
+D:\GitHub\autoTransport\autoTransport\Bus_In.cpp(38,22): warning C4244: =: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
 D:\GitHub\autoTransport\autoTransport\Transport_In.cpp(13,6): warning C4101: inh: неиспользованная локальная переменная
-D:\GitHub\autoTransport\autoTransport\Transport_Out.cpp(33): warning C4715: WPRatio: значение возвращается не при всех путях выполнения
+D:\GitHub\autoTransport\autoTransport\Truck_In.cpp(37,21): warning C4244: =: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
+D:\GitHub\autoTransport\autoTransport\Truck_In.cpp(38,22): warning C4244: =: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
+D:\GitHub\autoTransport\autoTransport\Car_In.cpp(37,21): warning C4244: =: преобразование "_Ty" в "short", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
+D:\GitHub\autoTransport\autoTransport\Car_In.cpp(38,22): warning C4244: =: преобразование "_Ty" в "int", возможна потеря данных
+          with
+          [
+              _Ty=float
+          ]
+D:\GitHub\autoTransport\autoTransport\Transport_Out.cpp(33): warning C4715: weightToPowerRatio: значение возвращается не при всех путях выполнения
+     Создается библиотека D:\GitHub\autoTransport\x64\Debug\UnitTest.lib и объект D:\GitHub\autoTransport\x64\Debug\UnitTest.exp
   UnitTest.vcxproj -> D:\GitHub\autoTransport\x64\Debug\UnitTest.dll

@@ -4,9 +4,9 @@
 
 using namespace std;
 
-Truck* InTruck(ifstream& ifst);
-Bus* InBus(ifstream& ifst);
-Car* InCar(ifstream& ifst);
+Truck* inTruck(ifstream& ifst);
+Bus* inBus(ifstream& ifst);
+Car* inCar(ifstream& ifst);
 
 Transport* In(int key, ifstream& ifst)
 {
@@ -14,11 +14,11 @@ Transport* In(int key, ifstream& ifst)
 	switch (key)
 	{
 	case 1:
-		return (Transport*)InBus(ifst);
+		return (Transport*)inBus(ifst);
 	case 2:
-		return (Transport*)InTruck(ifst);
+		return (Transport*)inTruck(ifst);
 	case 3:
-		return (Transport*)InCar(ifst);
+		return (Transport*)inCar(ifst);
 	default:
 		char ch;
 		ifst >> ch;

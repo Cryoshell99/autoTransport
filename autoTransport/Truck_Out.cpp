@@ -7,10 +7,10 @@ using namespace std;
 
 void Out(Truck* t, ofstream& ofst)
 {
-	ofst << "It is Truck, carrying capacity = " << t->mData << ", Engine power = " << t->tPower << ", Fuel consumption per 100 km = " << t->fuelConsumption << endl;
+	ofst << "It is Truck, carrying capacity = " << t->mData << ", Engine power = " << t->mPower << ", Fuel consumption per 100 km = " << t->mFuelConsumption << endl;
 };
 
-float WPRatio(Truck* t)
+float weightToPowerRatio(Truck* t)
 {
-	return (float)t->mData/(float)t->tPower;
+	return (float)t->mData/(float)t->mPower;
 };

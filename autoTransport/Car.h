@@ -4,7 +4,7 @@
 struct Car
 {
 	type mKey;
-	int tPower;
+	int mPower;
 	short int mData;
-	float fuelConsumption;
+	float mFuelConsumption;
 };
