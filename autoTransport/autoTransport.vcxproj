@@ -22,12 +22,9 @@
     <ClCompile Include="autoTransport.cpp" />
     <ClCompile Include="Bus_In.cpp" />
     <ClCompile Include="Bus_Out.cpp" />
-    <ClCompile Include="Car_In.cpp" />
-    <ClCompile Include="Car_Out.cpp" />
     <ClCompile Include="Container_Constr.cpp" />
     <ClCompile Include="Container_In.cpp" />
     <ClCompile Include="Container_Out.cpp" />
-    <ClCompile Include="Transport_Compare.cpp" />
     <ClCompile Include="Transport_In.cpp" />
     <ClCompile Include="Transport_Out.cpp" />
     <ClCompile Include="Truck_In.cpp" />
@@ -35,7 +32,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bus.h" />
-    <ClInclude Include="Car.h" />
     <ClInclude Include="Container.h" />
     <ClInclude Include="Transport.h" />
     <ClInclude Include="Truck.h" />
