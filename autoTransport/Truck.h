@@ -4,7 +4,6 @@
 struct Truck
 {
 	type mKey;
-	int tPower;
+	int mPower;
 	int mData;
-	double fuelConsumption;
 };

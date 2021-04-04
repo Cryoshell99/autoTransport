@@ -6,5 +6,5 @@
 struct Transport
 {
 	type mKey;
-	int tPower;
+	int mPower;
 };

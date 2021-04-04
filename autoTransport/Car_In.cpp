@@ -8,8 +8,7 @@ Car* InCar(ifstream& ifst)
 	Car* c;
 	c = new Car;
 	c->mKey = type::CAR;
-	ifst >> c->tPower;
+	ifst >> c->mPower;
 	ifst >> c->mData;
-	ifst >> c->fuelConsumption;
 	return c;
 }

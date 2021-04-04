@@ -8,8 +8,7 @@ Truck* InTruck(ifstream& ifst)
 	Truck* t;
 	t = new Truck;
 	t->mKey = type::TRUCK;
-	ifst >> t->tPower;
+	ifst >> t->mPower;
 	ifst >> t->mData;
-	ifst >> t->fuelConsumption;
 	return t;
 }
