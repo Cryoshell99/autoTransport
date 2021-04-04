@@ -4,6 +4,7 @@ Container contains that elements:
 1: It is Bus, passenger capacity = 23, Engine power = 2
 2: It is Truck, carrying capacity = 3, Engine power = 3
 3: It is Truck, carrying capacity = 5, Engine power = 4
+4: It is Bus, passenger capacity = 8, Engine power = 5
 
 Multimethod:
 Bus and Bus.
@@ -18,6 +19,10 @@ Bus and Truck.
 It is Bus, passenger capacity = 17, Engine power = 1
 It is Truck, carrying capacity = 5, Engine power = 4
 
+Bus and Bus.
+It is Bus, passenger capacity = 17, Engine power = 1
+It is Bus, passenger capacity = 8, Engine power = 5
+
 Bus and Truck.
 It is Bus, passenger capacity = 23, Engine power = 2
 It is Truck, carrying capacity = 3, Engine power = 3
@@ -25,9 +30,21 @@ It is Truck, carrying capacity = 3, Engine power = 3
 Bus and Truck.
 It is Bus, passenger capacity = 23, Engine power = 2
 It is Truck, carrying capacity = 5, Engine power = 4
+
+Bus and Bus.
+It is Bus, passenger capacity = 23, Engine power = 2
+It is Bus, passenger capacity = 8, Engine power = 5
 
 Truck and Truck.
 It is Truck, carrying capacity = 3, Engine power = 3
 It is Truck, carrying capacity = 5, Engine power = 4
+
+Truck and Bus.
+It is Truck, carrying capacity = 3, Engine power = 3
+It is Bus, passenger capacity = 8, Engine power = 5
+
+Truck and Bus.
+It is Truck, carrying capacity = 5, Engine power = 4
+It is Bus, passenger capacity = 8, Engine power = 5
 
 Container is empty!
