@@ -1,125 +1,71 @@
 Filled container. 
 Container contains that elements:
 0: It is Bus, passenger capacity = 17, Engine power = 1
-1: It is Bus, passenger capacity = 23, Engine power = 2
-2: It is Truck, carrying capacity = 3, Engine power = 3
-3: It is Truck, carrying capacity = 5, Engine power = 4
-4: It is Car, maximum speed = 12, Engine power = 5
-5: It is Car, maximum speed = 4, Engine power = 6
-6: It is Bus, passenger capacity = 17, Engine power = 7
-7: It is Truck, carrying capacity = 3, Engine power = 8
+1: It is Truck, carrying capacity = 3, Engine power = 2
+2: It is Car, maximum speed = 12, Engine power = 3
+3: It is Car, maximum speed = 4, Engine power = 4
+4: It is Truck, carrying capacity = 3, Engine power = 5
+5: It is Bus, passenger capacity = 17, Engine power = 6
 
 Multimethod:
-Bus and Bus.
-It is Bus, passenger capacity = 17, Engine power = 1
-It is Bus, passenger capacity = 23, Engine power = 2
-
 Bus and Truck.
 It is Bus, passenger capacity = 17, Engine power = 1
-It is Truck, carrying capacity = 3, Engine power = 3
-
-Bus and Truck.
-It is Bus, passenger capacity = 17, Engine power = 1
-It is Truck, carrying capacity = 5, Engine power = 4
+It is Truck, carrying capacity = 3, Engine power = 2
 
 Bus and Car
 It is Bus, passenger capacity = 17, Engine power = 1
-It is Car, maximum speed = 12, Engine power = 5
+It is Car, maximum speed = 12, Engine power = 3
 
 Bus and Car
 It is Bus, passenger capacity = 17, Engine power = 1
-It is Car, maximum speed = 4, Engine power = 6
+It is Car, maximum speed = 4, Engine power = 4
+
+Bus and Truck.
+It is Bus, passenger capacity = 17, Engine power = 1
+It is Truck, carrying capacity = 3, Engine power = 5
 
 Bus and Bus.
 It is Bus, passenger capacity = 17, Engine power = 1
-It is Bus, passenger capacity = 17, Engine power = 7
+It is Bus, passenger capacity = 17, Engine power = 6
 
-Bus and Truck.
-It is Bus, passenger capacity = 17, Engine power = 1
-It is Truck, carrying capacity = 3, Engine power = 8
+Truck and Car
+It is Truck, carrying capacity = 3, Engine power = 2
+It is Car, maximum speed = 12, Engine power = 3
 
-Bus and Truck.
-It is Bus, passenger capacity = 23, Engine power = 2
-It is Truck, carrying capacity = 3, Engine power = 3
-
-Bus and Truck.
-It is Bus, passenger capacity = 23, Engine power = 2
-It is Truck, carrying capacity = 5, Engine power = 4
-
-Bus and Car
-It is Bus, passenger capacity = 23, Engine power = 2
-It is Car, maximum speed = 12, Engine power = 5
-
-Bus and Car
-It is Bus, passenger capacity = 23, Engine power = 2
-It is Car, maximum speed = 4, Engine power = 6
-
-Bus and Bus.
-It is Bus, passenger capacity = 23, Engine power = 2
-It is Bus, passenger capacity = 17, Engine power = 7
-
-Bus and Truck.
-It is Bus, passenger capacity = 23, Engine power = 2
-It is Truck, carrying capacity = 3, Engine power = 8
+Truck and Car
+It is Truck, carrying capacity = 3, Engine power = 2
+It is Car, maximum speed = 4, Engine power = 4
 
 Truck and Truck.
-It is Truck, carrying capacity = 3, Engine power = 3
-It is Truck, carrying capacity = 5, Engine power = 4
-
-Truck and Car
-It is Truck, carrying capacity = 3, Engine power = 3
-It is Car, maximum speed = 12, Engine power = 5
-
-Truck and Car
-It is Truck, carrying capacity = 3, Engine power = 3
-It is Car, maximum speed = 4, Engine power = 6
+It is Truck, carrying capacity = 3, Engine power = 2
+It is Truck, carrying capacity = 3, Engine power = 5
 
 Truck and Bus.
-It is Truck, carrying capacity = 3, Engine power = 3
-It is Bus, passenger capacity = 17, Engine power = 7
-
-Truck and Truck.
-It is Truck, carrying capacity = 3, Engine power = 3
-It is Truck, carrying capacity = 3, Engine power = 8
-
-Truck and Car
-It is Truck, carrying capacity = 5, Engine power = 4
-It is Car, maximum speed = 12, Engine power = 5
-
-Truck and Car
-It is Truck, carrying capacity = 5, Engine power = 4
-It is Car, maximum speed = 4, Engine power = 6
-
-Truck and Bus.
-It is Truck, carrying capacity = 5, Engine power = 4
-It is Bus, passenger capacity = 17, Engine power = 7
-
-Truck and Truck.
-It is Truck, carrying capacity = 5, Engine power = 4
-It is Truck, carrying capacity = 3, Engine power = 8
+It is Truck, carrying capacity = 3, Engine power = 2
+It is Bus, passenger capacity = 17, Engine power = 6
 
 Car and Car
-It is Car, maximum speed = 12, Engine power = 5
-It is Car, maximum speed = 4, Engine power = 6
-
-Car and Bus.
-It is Car, maximum speed = 12, Engine power = 5
-It is Bus, passenger capacity = 17, Engine power = 7
+It is Car, maximum speed = 12, Engine power = 3
+It is Car, maximum speed = 4, Engine power = 4
 
 Car and Truck.
-It is Car, maximum speed = 12, Engine power = 5
-It is Truck, carrying capacity = 3, Engine power = 8
+It is Car, maximum speed = 12, Engine power = 3
+It is Truck, carrying capacity = 3, Engine power = 5
 
 Car and Bus.
-It is Car, maximum speed = 4, Engine power = 6
-It is Bus, passenger capacity = 17, Engine power = 7
+It is Car, maximum speed = 12, Engine power = 3
+It is Bus, passenger capacity = 17, Engine power = 6
 
 Car and Truck.
-It is Car, maximum speed = 4, Engine power = 6
-It is Truck, carrying capacity = 3, Engine power = 8
+It is Car, maximum speed = 4, Engine power = 4
+It is Truck, carrying capacity = 3, Engine power = 5
 
-Bus and Truck.
-It is Bus, passenger capacity = 17, Engine power = 7
-It is Truck, carrying capacity = 3, Engine power = 8
+Car and Bus.
+It is Car, maximum speed = 4, Engine power = 4
+It is Bus, passenger capacity = 17, Engine power = 6
+
+Truck and Bus.
+It is Truck, carrying capacity = 3, Engine power = 5
+It is Bus, passenger capacity = 17, Engine power = 6
 
 Container is empty!
