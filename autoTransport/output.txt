@@ -1,15 +1,33 @@
 Filled container. 
 Container contains that elements:
-0: It is Bus, passenger capacity = 17, Engine power = 3
-1: It is Bus, passenger capacity = 23, Engine power = 4
-2: It is Bus, passenger capacity = 16, Engine power = 5
-3: It is Bus, passenger capacity = 31, Engine power = 6
-4: It is Truck, carrying capacity = 3, Engine power = 7
-5: It is Truck, carrying capacity = 5, Engine power = 8
-6: It is Truck, carrying capacity = 7, Engine power = 9
-7: It is Truck, carrying capacity = 4, Engine power = 10
-8: It is Bus, passenger capacity = 1, Engine power = 1
-9: It is Truck, carrying capacity = 2, Engine power = 2
-10: It is Bus, passenger capacity = 3, Engine power = 3
-11: It is Truck, carrying capacity = 4, Engine power = 4
+0: It is Bus, passenger capacity = 17, Engine power = 1
+1: It is Bus, passenger capacity = 23, Engine power = 2
+2: It is Truck, carrying capacity = 3, Engine power = 3
+3: It is Truck, carrying capacity = 5, Engine power = 4
+
+Multimethod:
+Bus and Bus.
+It is Bus, passenger capacity = 17, Engine power = 1
+It is Bus, passenger capacity = 23, Engine power = 2
+
+Bus and Truck.
+It is Bus, passenger capacity = 17, Engine power = 1
+It is Truck, carrying capacity = 3, Engine power = 3
+
+Bus and Truck.
+It is Bus, passenger capacity = 17, Engine power = 1
+It is Truck, carrying capacity = 5, Engine power = 4
+
+Bus and Truck.
+It is Bus, passenger capacity = 23, Engine power = 2
+It is Truck, carrying capacity = 3, Engine power = 3
+
+Bus and Truck.
+It is Bus, passenger capacity = 23, Engine power = 2
+It is Truck, carrying capacity = 5, Engine power = 4
+
+Truck and Truck.
+It is Truck, carrying capacity = 3, Engine power = 3
+It is Truck, carrying capacity = 5, Engine power = 4
+
 Container is empty!
